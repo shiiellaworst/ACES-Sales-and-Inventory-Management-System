@@ -1,0 +1,140 @@
+/*USER PROFILE*/
+
+.col1 {
+    float: left;
+    width: 40%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+        .col2 {
+    float: left;
+    width: 60%;
+    margin-top: 10px;
+    padding: 20px 0 0px;
+  }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .tab-user {
+      width: 100%;
+      z-index: -1;
+  }
+
+        .tab-user ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            list-style: none;
+            height: 40px;
+            color: #fff;
+            background: #112D4E;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.03);
+            cursor: pointer;
+        }
+
+    .tab-user ul .tab-li {
+        padding: 0px 10px;
+        width: 100%;
+        cursor: pointer;
+        text-align: center;
+        transition: all .2s ease-in-out;
+    }
+
+    .tab-user ul .tab-li.active {
+        box-shadow: 0px -3px 0px rgba(163, 5, 5, 0.699) inset;
+    }
+
+#user-details {
+    width: 100%;
+}
+
+#user-details .details span {
+    font-size: 15px;
+}
+
+#user-details .details h2 {
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#user-details .details h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+#user-details .details li {
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#user-details .details li i {
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+#user-details .details li p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.tab-profile {
+    width: 100%;
+    z-index: -1;
+    
+}
+.in-profile {
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.in-profile table {
+    width: 50%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+.in-profile table img {
+    width: 70%;
+}
+
+.in-profile table td {
+    width: 65px;
+    text-align: center;
+}
+
+.in-profile table td i{
+    font-size: 20px;
+    align-items: center;
+}
+
+
+.in-profile table thead {
+    border: 1px solid #d1e8f2;
+    border-left: none;
+    border-right: none;
+}
+
+.in-profile table thead td {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+
+.in-profile table tbody tr td {
+    padding-top: 15px;
+}
+
+.in-profile table tbody td {
+    font-size: 13px;
+}

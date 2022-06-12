@@ -1,0 +1,96 @@
+/* ABOUT US PAGE */
+
+#hero1 {
+    background-image: url("../img/banner/abt1.jpg");
+    background-size: cover;
+    background-position: top 25% right 0;
+    height: 90vh;
+    width: 100%;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero1 .pr {
+    font-size: 16px;
+    font-weight: 700;
+    color: #112D4E;
+    margin: 30px;
+}
+
+#about {
+    text-align: center;
+}
+#about .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 15px;
+    transition: 0.02s ease;
+    position: relative;
+}
+
+#about .pro-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+
+#about .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 10px;
+    transition: 0.02s ease;
+    position: relative;
+}
+
+#about .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#about .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#about .pro .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#about .pro .des span {
+    color: 606063;
+    font-size: 12px;
+}
+
+#about .pro .des h5 {
+    padding-top: 7px;
+    color: #3F72AF;
+    font-size: 14px;
+}
+
+#about .pro .des i {
+    font-size: 12px;
+    color: rgba(243, 181, 25);
+}
+
+#about .pro .des h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #3F72AF;
+}
+

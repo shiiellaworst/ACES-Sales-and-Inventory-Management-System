@@ -1,0 +1,39 @@
+/* EVENT PAGE*/
+
+#event h2, p{
+    text-align: center;
+}
+
+.event-int[type=text], .event-int[type=date], .event-int[type=number], .event-int[type=password],.event-int[type=email], .sel, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  .event-int[type=submit], .attachbtn {
+    background-color: #3F72AF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .event-int[type=submit], .attachbtn:hover {
+    background-color: #112D4E;
+  }
+  
+  .column {
+    float: right;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
